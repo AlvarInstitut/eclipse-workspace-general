@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/INFORMATICA/alvar/Dropbox/Privat/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+87234306.index
+74469382.index
+2549732111.index
+2660010245.index

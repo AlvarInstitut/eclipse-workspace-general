@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Permutacions.kt&apos; to &apos;Permutacions.kt&apos;&#x0A;- Original project: &apos;Jocs_Kotlin&apos;&#x0A;- Destination element: &apos;Permutacions.kt&apos;&#x0A;- Original element: &apos;Permutacions.kt&apos;" description="Copy file" element1="src/figuretes/Permutacions.kt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1592374204261" target="/Jocs_Kotlin/src/figuretes/Permutacions.kt" units="0" version="1.0"/>
+</session>

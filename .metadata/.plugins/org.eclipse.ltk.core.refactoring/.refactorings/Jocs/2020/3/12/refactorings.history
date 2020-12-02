@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Jocs&apos;&#x0A;- Original project: &apos;Jocs&apos;&#x0A;- Original element: &apos;Exercicis.Mastermind (Copia en conflicto de dp1-04 2017-12-21).java&apos;" description="Delete element" element1="/src&lt;Exercicis{Mastermind \(Copia en conflicto de dp1-04 2017-12-21).java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1584787797089" subPackages="false" version="1.0"/>
+</session>

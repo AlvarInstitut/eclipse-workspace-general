@@ -1,0 +1,7 @@
+subnet 192.168.206.0 netmask 255.255.255.0 {
+    option subnet-mask  255.255.255.0;
+    option domain-name-servers 192.168.206.1,192.168.206.2;
+
+    next-server 192.168.206.1;
+
+

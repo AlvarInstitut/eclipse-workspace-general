@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 19/02/2018 10:04:51 by Hibernate Tools 5.2.5.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class dynamic-insert="false" dynamic-update="false" mutable="true" name="classesGeoHib.Institut" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="institut">
+        <id name="codi" type="string">
+            <column length="8" name="codi"/>
+            <generator class="assigned"/>
+        </id>
+        <many-to-one class="classesGeoHib.Poblacio" embed-xml="true" fetch="select" insert="true" name="poblacio" not-found="exception" optimistic-lock="true" unique="false" update="true">
+            <column name="cod_m" precision="5" scale="0"/>
+        </many-to-one>
+        <property generated="never" lazy="false" name="nom" optimistic-lock="true" type="string" unique="false">
+            <column length="60" name="nom"/>
+        </property>
+        <property generated="never" lazy="false" name="adreca" optimistic-lock="true" type="string" unique="false">
+            <column length="100" name="adreca"/>
+        </property>
+        <property generated="never" lazy="false" name="numero" optimistic-lock="true" type="string" unique="false">
+            <column length="5" name="numero"/>
+        </property>
+        <property generated="never" lazy="false" name="codpostal" optimistic-lock="true" type="java.lang.Integer" unique="false">
+            <column name="codpostal" precision="5" scale="0"/>
+        </property>
+    </class>
+</hibernate-mapping>

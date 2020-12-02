@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.password">geo_ad</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://89.36.214.106/geo_ad</property>
+        <property name="hibernate.connection.username">geo_ad</property>
+        <property name="hibernate.default_schema">public</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hibernate.search.autoregister_listeners">true</property>
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+        <mapping resource="classesGeoHib/Institut.hbm.xml"/>
+        <mapping resource="classesGeoHib/Comarca.hbm.xml"/>
+        <mapping resource="classesGeoHib/Poblacio.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

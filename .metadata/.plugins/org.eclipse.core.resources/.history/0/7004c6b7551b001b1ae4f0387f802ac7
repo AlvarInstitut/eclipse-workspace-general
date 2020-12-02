@@ -1,0 +1,17 @@
+package Proves
+
+import java.io.File
+
+fun main(args:Array<String>){
+	val f=File("prova.csv")
+	val linies = f.readLines()
+	linies.forEach{
+		println(it)
+		val camps = it.split(";")
+		camps.forEach{
+			print(it + "\t")
+		}
+		println()
+	}
+	
+}

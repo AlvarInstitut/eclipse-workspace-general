@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/media/assignatura/DAM/2n/AD/Drivers 2018/javax.mail.jar"/>
+	<classpathentry kind="lib" path="/media/assignatura/DAM/2n/AD/Drivers 2018/mysql-connector-java-5.1.44-bin.jar"/>
+	<classpathentry kind="lib" path="/media/assignatura/DAM/2n/AD/Drivers 2018/activation.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

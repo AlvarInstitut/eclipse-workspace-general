@@ -1,0 +1,9 @@
+
+public class ProvaCorreu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		EmailUtil.enviaCorreu("INCIDÈNCIES MANTENIMENT", "Hola, des de casa");
+	}
+
+}

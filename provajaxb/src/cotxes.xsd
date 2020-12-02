@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ 
+<xs:simpleType name="Combust">
+  <xs:restriction base="xs:string">
+      <xs:enumeration value="gasolina"/>
+      <xs:enumeration value="diesel"/>
+  </xs:restriction>
+</xs:simpleType>
+ 
+<xs:simpleType name="Matr">
+  <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{4}[A-Z]{3}"/>  
+  </xs:restriction>
+</xs:simpleType>
+ 
+<xs:element name="oferta">
+  <xs:complexType>
+    <xs:sequence>
+        <xs:element name="vehiculo" maxOccurs="unbounded" >
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="marca" type="xs:string"/>
+                    <xs:element name="modelo" >
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                    <xs:attribute name="color" type="xs:string" />
+                                </xs:extension>
+                            </xs:simpleContent>
+                        </xs:complexType>  
+                    </xs:element>  
+                    <xs:element name="motor" >
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                    <xs:attribute name="combustible" type="Combust" />
+                                </xs:extension>
+                            </xs:simpleContent>
+                        </xs:complexType>   
+                    </xs:element>
+                    <xs:element name="matricula" type="Matr"/>
+                    <xs:element name="kilometros" type="xs:integer"/>
+                    <xs:element name="precio_inicial"  type="xs:integer"/>
+                    <xs:element name="precio_oferta" type="xs:integer"/>
+                    <xs:element name="extra" maxOccurs="unbounded" >
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                    <xs:attribute name="valor" type="xs:integer" />
+                                </xs:extension>
+                            </xs:simpleContent>
+                        </xs:complexType>  
+                    </xs:element>   
+                    <xs:element name="foto" maxOccurs="unbounded" type="xs:string"/>     
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>        
+    </xs:sequence>    
+  </xs:complexType>
+</xs:element>
+ 
+</xs:schema>
+

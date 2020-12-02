@@ -1,0 +1,393 @@
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Graphics2D;
+import java.awt.GridLayout;
+import java.awt.Image;
+import java.awt.RenderingHints;
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.imageio.ImageIO;
+import javax.swing.BoxLayout;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextField;
+import javax.swing.WindowConstants;
+import javax.swing.JTable;
+
+public class MultiplesImatges_pantalla extends JFrame implements ActionListener {
+
+	private static final long serialVersionUID = 1L;
+
+	static int numCols = 5;
+	static int numFiles = 2;
+
+	JButton dirActiu = new JButton("Canviar el directori d'imatges");
+	JButton dirMoure = new JButton("Canviar el directori on moure les imatges");
+
+	JButton[][] imatges = new JButton[2][5];
+	JButton anterior1000 = new JButton(" <<1000 ");
+	JButton anterior = new JButton(" << ");
+	JButton esbTotes = new JButton(" Esborrar-les totes ");
+	JButton moureTotes = new JButton(" Moure-les totes ");
+	JButton seguent = new JButton(" >> ");
+	JButton seguent1000 = new JButton(" 1000>> ");
+
+	File directori;
+	File[] filesDirectori;
+	File[] imatgesSel = new File[numCols * numFiles];
+	Boolean[] imatgesSeleccionades = new Boolean[numCols * numFiles];
+	int indexFile;
+
+	int ampleBoto;
+	int altBoto;
+
+	JFileChooser fc = new JFileChooser();
+	JFileChooser fcDesti = new JFileChooser();
+	// quantes imatges estem veirent
+	int q;
+
+	// en iniciar posem un contenidor per als elements anteriors
+	public void iniciar() throws IOException {
+		getContentPane().setLayout(new BorderLayout());
+		JPanel p_prin = new JPanel();
+		p_prin.setLayout(new GridLayout(2, 5));
+		// contenidor per als elements
+		JPanel p_botonsDalt = new JPanel(new FlowLayout());
+		JPanel p_botons = new JPanel(new FlowLayout());
+		getContentPane().add(p_botonsDalt, BorderLayout.NORTH);
+		getContentPane().add(p_prin, BorderLayout.CENTER);
+		getContentPane().add(p_botons, BorderLayout.SOUTH);
+
+		p_botonsDalt.add(dirActiu);
+		p_botonsDalt.add(dirMoure);
+		dirActiu.addActionListener(this);
+		dirMoure.addActionListener(this);
+
+		p_botons.add(anterior1000);
+		p_botons.add(anterior);
+		p_botons.add(esbTotes);
+		p_botons.add(moureTotes);
+		p_botons.add(seguent);
+		p_botons.add(seguent1000);
+		anterior1000.addActionListener(this);
+		anterior.addActionListener(this);
+		esbTotes.addActionListener(this);
+		moureTotes.addActionListener(this);
+		seguent.addActionListener(this);
+		seguent1000.addActionListener(this);
+
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		this.setSize(screenSize.width, screenSize.height);
+		setVisible(true);
+		this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		// System.out.println("Ample total:" + screenSize.width);
+		// System.out.println("Alt total:" + screenSize.height);
+
+		int ampleTotal = p_prin.getWidth();
+		int altTotal = p_prin.getHeight();
+		ampleBoto = ampleTotal / numCols;
+		altBoto = altTotal / numFiles;
+		// System.out.println("Ample Pannell:" + ampleTotal);
+		// System.out.println("Alt Panell:" + altTotal);
+		// System.out.println("Ample botó:" + ampleBoto);
+		// System.out.println("Alt botó:" + altBoto);
+		for (int i = 0; i < numFiles; i++)
+			for (int j = 0; j < numCols; j++) {
+				imatges[i][j] = new JButton();
+				// imatges[i][j].setText(""+(i*numCols+j));
+				final int num = i * numCols + j;
+				// imatges[i][j].setSize(screenSize.width/5, screenSize.height/2);
+				p_prin.add(imatges[i][j]);
+				imatges[i][j].addActionListener(new ActionListener() {
+					public void actionPerformed(ActionEvent e) {
+						// TODO Auto-generated method stub
+						try {
+							accioBotoImatge(num);
+						} catch (IOException e1) {
+							// TODO Auto-generated catch block
+							e1.printStackTrace();
+						}
+					}
+				});
+				imatges[i][j].addMouseListener(new MouseListener() {
+					public void mouseClicked(MouseEvent e) {
+						// TODO Auto-generated method stub
+						if (e.getButton() == MouseEvent.BUTTON3) {
+							seleccionar(num);
+						}
+
+					}
+
+					public void mousePressed(MouseEvent e) {
+					}
+
+					public void mouseReleased(MouseEvent e) {
+					}
+
+					public void mouseEntered(MouseEvent e) {
+					}
+
+					public void mouseExited(MouseEvent e) {
+					}
+				});
+			}
+
+		directori = triar_directori();
+		indexFile = 0;
+		filesDirectori = directori.listFiles();
+		System.out.println(directori.getName() + ": Comencem");
+		q = agafarImatges(indexFile);
+		System.out.println("Num imatges " + q);
+		visImatges(q);
+
+		System.out.println("Directori triat: " + directori.getAbsolutePath());
+
+		// pack();
+
+	}
+
+	private void visImatges(int quantes) throws IOException {
+		// TODO Auto-generated method stub
+		int num = 0;
+		;
+		for (int i = 0; i < numFiles; i++) {
+			for (int j = 0; j < numCols; j++) {
+				num = i * numCols + j;
+				if (num < quantes) {
+					System.out.println("visualitzem la número " + num);
+					System.out.println(imatgesSel[num].getName());
+					BufferedImage img = ImageIO.read(imatgesSel[num]);
+					int ampleImg = img.getWidth();
+					int altImg = img.getHeight();
+					// System.out.println("Ample img:" + ampleImg);
+					// System.out.println("Alt img:" + altImg);
+
+					float relAmple = (float) (ampleBoto) / ampleImg;
+					float relAlt = (float) (altBoto) / altImg;
+					// System.out.println("Ample relació:" + relAmple);
+					// System.out.println("Alt relació:" + relAlt);
+
+					if (relAmple > relAlt) {
+						Image scaled = img;
+						scaled = scaled.getScaledInstance(Math.round(ampleImg * relAlt), altBoto, Image.SCALE_DEFAULT);
+						imatges[i][j].setIcon(new ImageIcon(scaled));
+					} else {
+						Image scaled = img;
+						scaled = scaled.getScaledInstance(ampleBoto, Math.round(altImg * relAmple),
+								Image.SCALE_DEFAULT);
+						imatges[i][j].setIcon(new ImageIcon(scaled));
+					}
+				} else
+					imatges[i][j].setIcon(null);
+			}
+		}
+
+	}
+
+	private int agafarImatges(int index) {
+		// TODO Auto-generated method stub
+		int compt = index;
+		int num = 0;
+		System.out.println("Comencem pel " + compt);
+		while (num < (numFiles * numCols) && compt < filesDirectori.length) {
+			String nom = filesDirectori[compt].getName();
+			System.out.println(nom);
+			if (nom.toLowerCase().contains(".png") || nom.toLowerCase().contains(".jpg")
+					|| nom.toLowerCase().contains(".jpeg") || nom.toLowerCase().contains(".bmp")) {
+				imatgesSel[num] = filesDirectori[compt];
+				num++;
+			}
+			compt++;
+		}
+		return (num);
+	}
+
+	private File triar_directori() {
+		fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+		int r = fc.showOpenDialog(this);
+		if (r == JFileChooser.APPROVE_OPTION) {
+			System.out.println("Fitxer seleccionat: " + fc.getSelectedFile().getName());
+		} else
+			System.out.println("No s'ha seleccionat res");
+
+		return fc.getSelectedFile();
+	}
+
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		if (e.getSource() == dirActiu) {
+			directori = triar_directori();
+			indexFile = 0;
+			filesDirectori = directori.listFiles();
+			System.out.println(directori.getName() + ": Comencem");
+			int q = agafarImatges(indexFile);
+			System.out.println("Num imatges " + q);
+			try {
+				visImatges(q);
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+
+			System.out.println("Directori triat: " + directori.getAbsolutePath());
+
+		}
+
+		if (e.getSource() == dirMoure) {
+			fcDesti.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+			int r = fcDesti.showOpenDialog(this);
+			if (r == JFileChooser.APPROVE_OPTION) {
+				System.out.println("Fitxer seleccionat: " + fc.getSelectedFile().getName());
+			} else
+				System.out.println("No s'ha seleccionat res");
+		}
+
+		if (e.getSource() == esbTotes) {
+			for (int i = 0; i < q; i++)
+				if (imatgesSel[i].getName() != null) {
+					System.out.println("Esborrar " + imatgesSel[i].getName());
+					imatgesSel[i].delete();
+				}
+			filesDirectori = directori.listFiles();
+			System.out.println(directori.getName() + ": Comencem");
+			q = agafarImatges(indexFile);
+			System.out.println("Num imatges " + q);
+			try {
+				visImatges(q);
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+
+		}
+
+		if (e.getSource() == moureTotes) {
+			if (fcDesti.getSelectedFile() == null)
+				JOptionPane.showMessageDialog(this, "No s'ha triat cap directori de destí", "Error",
+						JOptionPane.ERROR_MESSAGE);
+			else {
+				System.out.println("Anem a moure-les a: " + fcDesti.getSelectedFile());
+				for (int i = 0; i < q; i++)
+					if (imatgesSel[i].getName() != null) {
+						System.out.println("Moure " + imatgesSel[i].getName() + " a " + fcDesti.getSelectedFile());
+						imatgesSel[i].renameTo(new File(fcDesti.getSelectedFile(), imatgesSel[i].getName()));
+					}
+
+			}
+			filesDirectori = directori.listFiles();
+			System.out.println(directori.getName() + ": Comencem");
+			q = agafarImatges(indexFile);
+			System.out.println("Num imatges " + q);
+			try {
+				visImatges(q);
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+		}
+
+		if (e.getSource() == anterior1000) {
+			indexFile -= 1000;
+			if (indexFile < 0)
+				indexFile = 0;
+			q = agafarImatges(indexFile);
+			System.out.println("Num imatges " + q);
+			try {
+				visImatges(q);
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+		}
+
+		if (e.getSource() == anterior) {
+			indexFile -= 10;
+			if (indexFile < 0)
+				indexFile = 0;
+			q = agafarImatges(indexFile);
+			System.out.println("Num imatges " + q);
+			try {
+				visImatges(q);
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+		}
+
+		if (e.getSource() == seguent) {
+			indexFile += 10;
+			if (indexFile > (filesDirectori.length - 10))
+				indexFile = (filesDirectori.length - 10);
+			q = agafarImatges(indexFile);
+			System.out.println("Num imatges " + q);
+			try {
+				visImatges(q);
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+
+		}
+
+		if (e.getSource() == seguent1000) {
+			indexFile += 1000;
+			if (indexFile > (filesDirectori.length - 10))
+				indexFile = (filesDirectori.length - 10);
+			q = agafarImatges(indexFile);
+			System.out.println("Num imatges " + q);
+			try {
+				visImatges(q);
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+
+		}
+
+	}
+
+	private void accioBotoImatge(int i) throws IOException {
+		// TODO Auto-generated method stub
+		System.out.println(i);
+		// imatgeSolta.iniciar(imatgesSel[i]);
+		JFrame frame = new JFrame(imatgesSel[i].getName());
+		JPanel container = new JPanel();
+		JScrollPane scrPane = new JScrollPane(container);
+		frame.add(scrPane);
+		BufferedImage img = ImageIO.read(imatgesSel[i]);
+		JLabel label = new JLabel();
+		label.setIcon(new ImageIcon(img));
+		frame.setSize(img.getWidth(), img.getHeight());
+		container.add(label);
+		frame.pack();
+		frame.setVisible(true);
+	}
+
+	private void seleccionar(int num) {
+		// TODO Auto-generated method stub
+		imatgesSeleccionades[num] = !imatgesSeleccionades[num];
+		int i = num / numCols;
+		int j = num % numCols;
+		if (imatgesSeleccionades[num])
+			imatges[i][j].setBackground(Color.GREEN);
+		else
+			imatges[i][j].setBackground(null);
+	}
+
+}
