@@ -25,7 +25,7 @@ public class EmailUtil {
 
 			Session session = Session.getInstance(props, new javax.mail.Authenticator() {
 				protected PasswordAuthentication getPasswordAuthentication() {
-					return new PasswordAuthentication("manteniment@ieselcaminas.org", "m@nt3n1m3nt");
+					return new PasswordAuthentication("manteniment@ieselcaminas.org", "m@nt3n1m3nt_ies");
 				}
 			});
 			MimeMessage msg = new MimeMessage(session);

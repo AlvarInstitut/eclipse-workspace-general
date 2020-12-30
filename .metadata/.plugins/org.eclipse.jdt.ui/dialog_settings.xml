@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.lastextjar" value="/home/alvar/Drivers 2019"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="/home/alvar/Drivers 2020"/>
+	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
+	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-1.8"/>
+	<item key="TypeHierarchyViewPart.hierarchyview" value="2"/>
+	<item key="TypeHierarchyViewPart.qualifiednames" value="false"/>
+	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
+	<item key="TypeHierarchyViewPart.orientation" value="3"/>
+	<item key="clean_up_selection_dialog.preferred_width" value="1051"/>
+	<item key="clean_up_selection_dialog.preferred_height" value="858"/>
+	<item key="clean_up_selection_dialog.preferred_x" value="471"/>
+	<item key="clean_up_selection_dialog.preferred_y" value="27"/>
 	<section name="RefactoringWizard.preview">
 		<item key="width" value="600"/>
 		<item key="height" value="400"/>
 	</section>
 	<section name="FatJarPackageWizard">
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="/home/alvar/Dropbox/Privat/eclipse-workspace.xml"/>
-		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="consultaIncidencies - UtilitatsManteniment"/>
-		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="/home/INFORMATICA/alvar/temp/CorreuIncidencies.jar"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="ProvaCorreu (1) - utilitatsmanteniment"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="/home/alvar/temp/Correu.jar"/>
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
 		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="1"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/home/alvar/temp/Correu.jar"/>
 			<item value="/home/INFORMATICA/alvar/temp/CorreuIncidencies.jar"/>
 			<item value="/home/INFORMATICA/alvar/temp/CorreuiNCIDENCIES.jar"/>
-			<item value="/home/alvar/temp/Correu.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
 			<item value="/home/alvar/Dropbox/Privat/eclipse-workspace.xml"/>
@@ -50,5 +60,13 @@
 	</section>
 	<section name="ClasspathContainerSelectionPage">
 		<item key="index" value="3"/>
+	</section>
+	<section name="nls_accessor_history">
+		<section name="0">
+			<item key="accessorName" value="Messages"/>
+			<item key="accessorPackage" value="=utilitatsmanteniment/src&lt;"/>
+			<item key="bundleName" value="messages.properties"/>
+			<item key="bundlePackage" value="=utilitatsmanteniment/src&lt;"/>
+		</section>
 	</section>
 </section>
