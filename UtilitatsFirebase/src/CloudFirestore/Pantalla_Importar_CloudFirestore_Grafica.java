@@ -80,7 +80,7 @@ public class Pantalla_Importar_CloudFirestore_Grafica extends JFrame implements 
 		enviar.addActionListener(this);
 
 		FileInputStream serviceAccount = new FileInputStream(
-				"exadfirebase-firebase-adminsdk-wgvi4-9fb6b2831d.json");
+				"xat-ad-firebase-adminsdk-my2d0-8c69944b34.json");
 
 		FirebaseOptions options = new FirebaseOptions.Builder()
 				.setCredentials(GoogleCredentials.fromStream(serviceAccount))

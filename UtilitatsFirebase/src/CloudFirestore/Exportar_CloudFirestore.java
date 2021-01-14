@@ -39,13 +39,13 @@ public class Exportar_CloudFirestore {
 		Firestore db = FirestoreClient.getFirestore();
 
 		// Obtenir totes les col·leccions
-		Iterable<CollectionReference> cols = db.listCollections();
-		System.out.println("Col·leccions");
-		for (CollectionReference c : cols) {
+		CollectionReference c = db.collection("CoffeeShops");
+//		System.out.println("Col·leccions");
+//		for (CollectionReference c : cols) {
 			obtenirColeccio(c);
-		}
+//		}
 		
-		FileWriter f = new FileWriter("CloudFirestore.json");
+		FileWriter f = new FileWriter("CloudFirestoreCoffeeShops.json");
         f.write(llistaDocs.toJson());
         f.close();
 		
