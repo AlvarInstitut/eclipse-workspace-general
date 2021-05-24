@@ -1,0 +1,3456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE DiarioResumen>
+<DiarioResumen>
+ <Cabecera>
+  <NombreEmpresa>ASSOCIACIÓ MUSICAL CASTÀLIA</NombreEmpresa>
+ </Cabecera>
+ <Detalle>
+  <Periodo>
+   <NombrePeriodo>APERTURA 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>101000001</Cuenta>
+     <Descrip>FONS SOCIAL</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>11816,82</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>113000001</Cuenta>
+     <Descrip>PAGAMENTS QUOTA SOCI ENDARRERITS</Descrip>
+     <Debe>429,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>113000002</Cuenta>
+     <Descrip>PAGAMENTS COMISSIÓ LOTERIA ENDARRERITS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>60,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>129000001</Cuenta>
+     <Descrip>Excedent de l'exercici</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>15681,37</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>203000001</Cuenta>
+     <Descrip>PARTITURES</Descrip>
+     <Debe>230,01</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>214000001</Cuenta>
+     <Descrip>VENTILADORS</Descrip>
+     <Debe>33,79</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000001</Cuenta>
+     <Descrip>Bombo marxa</Descrip>
+     <Debe>102,15</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000002</Cuenta>
+     <Descrip>Bombo marxa</Descrip>
+     <Debe>102,15</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000003</Cuenta>
+     <Descrip>Massa bombo</Descrip>
+     <Debe>8,43</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000004</Cuenta>
+     <Descrip>Massa bombo</Descrip>
+     <Debe>8,43</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000005</Cuenta>
+     <Descrip>Claves (par)</Descrip>
+     <Debe>7,93</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000006</Cuenta>
+     <Descrip>Pandereta</Descrip>
+     <Debe>95,70</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000007</Cuenta>
+     <Descrip>Triangle</Descrip>
+     <Debe>21,82</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000008</Cuenta>
+     <Descrip>Massa triangle</Descrip>
+     <Debe>10,42</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000009</Cuenta>
+     <Descrip>Penjador triangle</Descrip>
+     <Debe>31,24</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000010</Cuenta>
+     <Descrip>Maraques</Descrip>
+     <Debe>8,93</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000011</Cuenta>
+     <Descrip>Lira</Descrip>
+     <Debe>403,14</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000012</Cuenta>
+     <Descrip>Timbal 23''</Descrip>
+     <Debe>1138,01</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000013</Cuenta>
+     <Descrip>Timbal 26''</Descrip>
+     <Debe>992,23</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000014</Cuenta>
+     <Descrip>Timbal 29''</Descrip>
+     <Debe>1122,15</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000015</Cuenta>
+     <Descrip>Esquella</Descrip>
+     <Debe>22,81</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000016</Cuenta>
+     <Descrip>Temple-blocks</Descrip>
+     <Debe>236,84</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000017</Cuenta>
+     <Descrip>Cortina</Descrip>
+     <Debe>44,87</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000018</Cuenta>
+     <Descrip>Suport cortina</Descrip>
+     <Debe>10,42</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000019</Cuenta>
+     <Descrip>Suport Lira</Descrip>
+     <Debe>12,15</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000020</Cuenta>
+     <Descrip>Flauta èmbol</Descrip>
+     <Debe>4,61</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000021</Cuenta>
+     <Descrip>Vibra-SLAP</Descrip>
+     <Debe>33,11</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000022</Cuenta>
+     <Descrip>Escobilla Jazz</Descrip>
+     <Debe>13,86</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000023</Cuenta>
+     <Descrip>Cabasa</Descrip>
+     <Debe>16,86</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000024</Cuenta>
+     <Descrip>Multigüiro</Descrip>
+     <Debe>29,75</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000025</Cuenta>
+     <Descrip>A-Go-Go</Descrip>
+     <Debe>37,02</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000026</Cuenta>
+     <Descrip>Castanyetes</Descrip>
+     <Debe>105,78</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000027</Cuenta>
+     <Descrip>Gong</Descrip>
+     <Debe>296,73</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000028</Cuenta>
+     <Descrip>Campanes</Descrip>
+     <Debe>30,42</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000029</Cuenta>
+     <Descrip>Suport Gong</Descrip>
+     <Debe>51,74</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000030</Cuenta>
+     <Descrip>Bobina Oboe/Fagot</Descrip>
+     <Debe>4,85</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000031</Cuenta>
+     <Descrip>Tuba</Descrip>
+     <Debe>2436,70</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000032</Cuenta>
+     <Descrip>Xilòfon</Descrip>
+     <Debe>1314,30</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000033</Cuenta>
+     <Descrip>Plats</Descrip>
+     <Debe>511,17</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000035</Cuenta>
+     <Descrip>Bombo concert</Descrip>
+     <Debe>1025,09</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000036</Cuenta>
+     <Descrip>Plats</Descrip>
+     <Debe>6,20</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000037</Cuenta>
+     <Descrip>Faristols</Descrip>
+     <Debe>44,47</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000038</Cuenta>
+     <Descrip>Fundes timbals</Descrip>
+     <Debe>67,68</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000039</Cuenta>
+     <Descrip>Fundes timbals</Descrip>
+     <Debe>59,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000040</Cuenta>
+     <Descrip>Baquetes</Descrip>
+     <Debe>57,85</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000041</Cuenta>
+     <Descrip>Boquilla saxo</Descrip>
+     <Debe>134,77</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000042</Cuenta>
+     <Descrip>Drap boquilla</Descrip>
+     <Debe>10,54</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000043</Cuenta>
+     <Descrip>Drap saxo</Descrip>
+     <Debe>12,64</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000044</Cuenta>
+     <Descrip>SAXO TENOR</Descrip>
+     <Debe>1219,01</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000045</Cuenta>
+     <Descrip>Suport plats GUIL PTO</Descrip>
+     <Debe>61,98</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000046</Cuenta>
+     <Descrip>CAIXA YAMAHA CONCERT CSMI 350 A II</Descrip>
+     <Debe>355,37</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000047</Cuenta>
+     <Descrip>ARNÉS BOMBO</Descrip>
+     <Debe>20,66</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000049</Cuenta>
+     <Descrip>PLAT SABIAN B8X 18''</Descrip>
+     <Debe>89,25</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000050</Cuenta>
+     <Descrip>SUPORT DE PLAT JIRAFA 1103F</Descrip>
+     <Debe>35,54</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000054</Cuenta>
+     <Descrip>CONGUES</Descrip>
+     <Debe>342,98</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000058</Cuenta>
+     <Descrip>Altaveu</Descrip>
+     <Debe>234,05</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000059</Cuenta>
+     <Descrip>Bandera</Descrip>
+     <Debe>897,31</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000060</Cuenta>
+     <Descrip>SAXO BARITON</Descrip>
+     <Debe>3714,63</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000001</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0001 Bombo marxa</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>34,04</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000002</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0002 Bombo marxa</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>34,04</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000003</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0003 Massa bombo</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>2,80</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000004</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0004 Massa bombo</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>2,80</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000005</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0005 Claves (par)</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>2,64</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000006</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0006 Pandereta</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>31,90</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000007</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0007 Triangle</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>7,28</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000008</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0008 Massa triangle</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>3,48</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000009</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0009 Penjador triangle</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>10,42</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000010</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0010 Maraques</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>2,98</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000011</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0011 Lira</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>134,38</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000012</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0012 Timbal 23'</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>379,34</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000013</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0013 Timbal 26'</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>330,74</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000014</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0014 Timbal 29'</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>374,06</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000015</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0015 Esquella</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>6,52</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000016</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0016 Temple-blocks</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>67,66</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000017</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0017 Cortina</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>12,82</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000018</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0018 Suport cortina</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>2,98</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000019</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0019 Suport Lira</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>3,48</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000020</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0020 Flauta èmbol</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1,16</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000021</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0021 Vibra-SLAP</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>8,28</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000022</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0022 Escobilla Jazz</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>3,46</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000023</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0023 Cabasa</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>4,22</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000024</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0024 Multigüiro</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>7,44</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000025</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0025 A-Go-Go</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>9,26</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000026</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0026 Castanyetes</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>26,44</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000027</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0027 Gong</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>74,18</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000028</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0028 Campanes</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>7,60</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000029</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0029 Suport Gong</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>12,94</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000030</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0030 Bobina Oboe/Fagot</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1,22</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000031</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0031 Tuba</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>541,48</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000032</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0032 Xilòfon</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>292,06</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000033</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0033 Plats</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>113,60</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000035</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0035 Bombo concert</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>227,80</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000036</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0036 Plats</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>4,14</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000037</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0037 Faristols</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>17,78</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000038</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0038 Fundes timbals</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>19,34</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000039</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0039 Fundes timbals</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>17,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000040</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0040 Baquetes</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>16,52</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000041</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0041 Boquilla saxo</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>26,96</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000042</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0042 Drap boquilla</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>2,10</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000043</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0043 Drap saxo</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>2,52</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000044</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0044 Saxo Tenor</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>243,13</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000045</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0045 Suport plats</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>11,41</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000046</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0046 Caixa concert</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>61,34</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000047</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0047 Arnés Bombo</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>3,43</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000049</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0049 Plat 18'</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>15,07</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000050</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0050 Suport jirafa</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>5,99</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000054</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0054 Congues</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>41,35</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000058</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0058 Altaveu</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>58,52</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000059</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0059 Bandera</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>199,40</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000060</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA SAXO BARÍTON</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>351,11</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200039</Cuenta>
+     <Descrip>SOFÍA MOLINA LAGO</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200082</Cuenta>
+     <Descrip>FERRAN SALES PRIACE</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200092</Cuenta>
+     <Descrip>CAMILA F. ZANETTI</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200099</Cuenta>
+     <Descrip>MARIA SEGURA PEREZ</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>4,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200107</Cuenta>
+     <Descrip>JORDI LOPEZ PRADES</Descrip>
+     <Debe>9,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200108</Cuenta>
+     <Descrip>ANDREU LOPEZ PRADES</Descrip>
+     <Debe>10,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200116</Cuenta>
+     <Descrip>PEDRO GILABERT BLANCH</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>3,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200122</Cuenta>
+     <Descrip>MANEL ANDRES LECHE</Descrip>
+     <Debe>49,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>470800021</Cuenta>
+     <Descrip>FEDERACIÓ</Descrip>
+     <Debe>1191,29</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>470800032</Cuenta>
+     <Descrip>INSTITUT VALENCIÀ DE CULTURA</Descrip>
+     <Debe>1369,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>2415,02</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>475100001</Cuenta>
+     <Descrip>HISENDA PÚBLICA ACREEDORA PER RETENCIONS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>9,86</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>476000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL ACREEDORA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>208,78</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>485000001</Cuenta>
+     <Descrip>QUOTES ANTICIPADES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>97,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>521000001</Cuenta>
+     <Descrip>Deutes curt termini</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>20,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>570000001</Cuenta>
+     <Descrip>CAIXA</Descrip>
+     <Debe>188,19</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>8137,94</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>ENERO 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>219000061</Cuenta>
+     <Descrip>FARISTOLS (PERMUSIC)</Descrip>
+     <Debe>161,15</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000062</Cuenta>
+     <Descrip>CADIRA DIRECTORA</Descrip>
+     <Debe>231,40</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000063</Cuenta>
+     <Descrip>OUS MARAQUES</Descrip>
+     <Debe>4,96</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>400000001</Cuenta>
+     <Descrip>PERMUSIC</Descrip>
+     <Debe>228,87</Debe>
+     <Haber>228,87</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>400000002</Cuenta>
+     <Descrip>PORTOLÉS</Descrip>
+     <Debe>286,00</Debe>
+     <Haber>286,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200039</Cuenta>
+     <Descrip>SOFÍA MOLINA LAGO</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200105</Cuenta>
+     <Descrip>SARA ROMERO TORRES</Descrip>
+     <Debe>9,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200108</Cuenta>
+     <Descrip>ANDREU LOPEZ PRADES</Descrip>
+     <Debe>1,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200109</Cuenta>
+     <Descrip>PAU RODRIGUEZ PASTOR</Descrip>
+     <Debe>4,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200110</Cuenta>
+     <Descrip>ADRIÀ VALDELVIRA SORRIBES</Descrip>
+     <Debe>13,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200112</Cuenta>
+     <Descrip>ALICIA GONZALEZ BARBERA</Descrip>
+     <Debe>13,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200113</Cuenta>
+     <Descrip>ALBA MOLINA JUAN</Descrip>
+     <Debe>13,50</Debe>
+     <Haber>13,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200114</Cuenta>
+     <Descrip>PAULA GARCIA MONTOLIO</Descrip>
+     <Debe>9,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200115</Cuenta>
+     <Descrip>ANDRES UGARRIZA GARCIA</Descrip>
+     <Debe>24,00</Debe>
+     <Haber>24,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200116</Cuenta>
+     <Descrip>PEDRO GILABERT BLANCH</Descrip>
+     <Debe>15,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200119</Cuenta>
+     <Descrip>DANIEL GARCIA CASTILLO</Descrip>
+     <Debe>19,50</Debe>
+     <Haber>19,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200121</Cuenta>
+     <Descrip>PAU BELTRAN OBIOL</Descrip>
+     <Debe>12,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200122</Cuenta>
+     <Descrip>MANEL ANDRES LECHE</Descrip>
+     <Debe>19,50</Debe>
+     <Haber>69,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200124</Cuenta>
+     <Descrip>DANIEL GRIÑÓ VILAR</Descrip>
+     <Debe>28,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200127</Cuenta>
+     <Descrip>ENRIC MENA GARRIGA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200128</Cuenta>
+     <Descrip>SOLEDAD RAMÓN LORIENTE</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200129</Cuenta>
+     <Descrip>MANUEL CARCELLER NAVARRO</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200130</Cuenta>
+     <Descrip>ROSA PORCAR VILLALONGA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200131</Cuenta>
+     <Descrip>ÀLVAR SERRANO CALDUCH</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200132</Cuenta>
+     <Descrip>ALBERTO GIMENO GARCIA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200135</Cuenta>
+     <Descrip>MERCEDES MONTERDE</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200136</Cuenta>
+     <Descrip>ANTOINE ROJAS LINAN</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>465000001</Cuenta>
+     <Descrip>NORMA</Descrip>
+     <Debe>330,00</Debe>
+     <Haber>330,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>91,09</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>475100001</Cuenta>
+     <Descrip>HISENDA PÚBLICA ACREEDORA PER RETENCIONS</Descrip>
+     <Debe>27,40</Debe>
+     <Haber>7,20</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>476000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL ACREEDORA</Descrip>
+     <Debe>113,57</Debe>
+     <Haber>135,92</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>570000001</Cuenta>
+     <Descrip>CAIXA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>18,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>276,00</Debe>
+     <Haber>1191,72</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>622000001</Cuenta>
+     <Descrip>REPARACIÓ SAXO BARÍTON</Descrip>
+     <Debe>28,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>10,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>0,83</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000004</Cuenta>
+     <Descrip>FEDERACIÓ</Descrip>
+     <Debe>194,88</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000021</Cuenta>
+     <Descrip>MATERIAL OFICINA</Descrip>
+     <Debe>7,44</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>640000001</Cuenta>
+     <Descrip>SOUS I SALARIS</Descrip>
+     <Debe>360,07</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>642000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL A CÀRREC DE L'EMPRESA</Descrip>
+     <Debe>113,05</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>647000001</Cuenta>
+     <Descrip>DIETES</Descrip>
+     <Debe>9,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>720000001</Cuenta>
+     <Descrip>QUOTES AFILIATS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>422,50</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>FEBRERO 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>448200105</Cuenta>
+     <Descrip>SARA ROMERO TORRES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>9,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200107</Cuenta>
+     <Descrip>JORDI LOPEZ PRADES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>9,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200108</Cuenta>
+     <Descrip>ANDREU LOPEZ PRADES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>10,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200112</Cuenta>
+     <Descrip>ALICIA GONZALEZ BARBERA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>13,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200124</Cuenta>
+     <Descrip>DANIEL GRIÑÓ VILAR</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200136</Cuenta>
+     <Descrip>ANTOINE ROJAS LINAN</Descrip>
+     <Debe>5,00</Debe>
+     <Haber>5,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>465000001</Cuenta>
+     <Descrip>NORMA</Descrip>
+     <Debe>330,00</Debe>
+     <Haber>330,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>41,65</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>475100001</Cuenta>
+     <Descrip>HISENDA PÚBLICA ACREEDORA PER RETENCIONS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>7,20</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>476000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL ACREEDORA</Descrip>
+     <Debe>135,92</Debe>
+     <Haber>135,92</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>297,00</Debe>
+     <Haber>717,90</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>12,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000001</Cuenta>
+     <Descrip>CEDRO</Descrip>
+     <Debe>197,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>0,83</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>640000001</Cuenta>
+     <Descrip>SOUS I SALARIS</Descrip>
+     <Debe>360,07</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>642000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL A CÀRREC DE L'EMPRESA</Descrip>
+     <Debe>113,05</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>705000001</Cuenta>
+     <Descrip>ACTUACIONS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>220,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>726000011</Cuenta>
+     <Descrip>INGRESSOS PER ESCUTS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>5,00</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>MARZO 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>448200129</Cuenta>
+     <Descrip>MANUEL CARCELLER NAVARRO</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200137</Cuenta>
+     <Descrip>AGUSTÍ PERIS LEONISA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200138</Cuenta>
+     <Descrip>ROBERTO SANCHIS LLOPIS (COL)</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>465000001</Cuenta>
+     <Descrip>NORMA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>171,60</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>4,69</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>475100001</Cuenta>
+     <Descrip>HISENDA PÚBLICA ACREEDORA PER RETENCIONS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>3,74</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>476000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL ACREEDORA</Descrip>
+     <Debe>135,92</Debe>
+     <Haber>70,69</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>90,00</Debe>
+     <Haber>390,22</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>12,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>627000002</Cuenta>
+     <Descrip>PUBLICITAT</Descrip>
+     <Debe>11,85</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>5,76</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>640000001</Cuenta>
+     <Descrip>SOUS I SALARIS</Descrip>
+     <Debe>187,24</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>642000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL A CÀRREC DE L'EMPRESA</Descrip>
+     <Debe>58,79</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>678000013</Cuenta>
+     <Descrip>DESPESES EXCEPCIONALS: XARANGA</Descrip>
+     <Debe>220,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>720000001</Cuenta>
+     <Descrip>QUOTES AFILIATS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>60,00</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>ABRIL 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>448200113</Cuenta>
+     <Descrip>ALBA MOLINA JUAN</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>13,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200121</Cuenta>
+     <Descrip>PAU BELTRAN OBIOL</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>36,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>465000001</Cuenta>
+     <Descrip>NORMA</Descrip>
+     <Debe>171,60</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>1,27</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>476000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL ACREEDORA</Descrip>
+     <Debe>70,68</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>49,50</Debe>
+     <Haber>435,79</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>625000001</Cuenta>
+     <Descrip>ASSEGURANCES</Descrip>
+     <Debe>177,46</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>10,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>4,78</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>MAYO 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>1,27</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>475100001</Cuenta>
+     <Descrip>HISENDA PÚBLICA ACREEDORA PER RETENCIONS</Descrip>
+     <Debe>18,14</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>34,19</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>10,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>4,78</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>JUNIO 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>470800021</Cuenta>
+     <Descrip>FEDERACIÓ</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1191,29</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>1,27</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>1191,29</Debe>
+     <Haber>16,05</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>10,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>4,78</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>JULIO 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>448200113</Cuenta>
+     <Descrip>ALBA MOLINA JUAN</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>13,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>470800001</Cuenta>
+     <Descrip>AJUNTAMENT</Descrip>
+     <Debe>882,83</Debe>
+     <Haber>882,83</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>470800032</Cuenta>
+     <Descrip>INSTITUT VALENCIÀ DE CULTURA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1369,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>1,27</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>1382,50</Debe>
+     <Haber>1093,76</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>10,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>4,78</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000004</Cuenta>
+     <Descrip>FEDERACIÓ</Descrip>
+     <Debe>194,88</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>740000001</Cuenta>
+     <Descrip>SUBVENCIONS AJUNTAMENT</Descrip>
+     <Debe>882,83</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>AGOSTO 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>1,27</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>318,47</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>625000001</Cuenta>
+     <Descrip>ASSEGURANCES</Descrip>
+     <Debe>302,42</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>10,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>4,78</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>SEPTIEMBRE 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>448200020</Cuenta>
+     <Descrip>VICTOR MANUEL SÁNCHEZ GARCÍA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200035</Cuenta>
+     <Descrip>PABLO ULLDEMOLINS AZNAR</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200036</Cuenta>
+     <Descrip>RAQUEL ARTUÑEDO PÉREZ</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200039</Cuenta>
+     <Descrip>SOFÍA MOLINA LAGO</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200040</Cuenta>
+     <Descrip>ELENA GIMENO TENA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200041</Cuenta>
+     <Descrip>HÉCTOR BRANCHADELL TENA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200042</Cuenta>
+     <Descrip>SARA ARTUÑEDO PÉREZ</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200052</Cuenta>
+     <Descrip>SALOMÉ VIVES MONTERDE</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200054</Cuenta>
+     <Descrip>RUBEN GRIÑO VILAR</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200057</Cuenta>
+     <Descrip>MARC ULLDEMOLINS AZNAR</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200069</Cuenta>
+     <Descrip>MARINA BRANCHADELL TENA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200072</Cuenta>
+     <Descrip>RAQUEL PERIS SÁNCHEZ</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200073</Cuenta>
+     <Descrip>MARIA GREGORIO LOZANO</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200074</Cuenta>
+     <Descrip>ENRIC MENA RAMÓN</Descrip>
+     <Debe>150,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200075</Cuenta>
+     <Descrip>MARC MENA RAMÓN</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200076</Cuenta>
+     <Descrip>JOAN SERRANO PORCAR</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200077</Cuenta>
+     <Descrip>ROBERTO VERGARA SANCHIS</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200078</Cuenta>
+     <Descrip>LARA ARAGONÉS TECLES</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200079</Cuenta>
+     <Descrip>MAR VERGARA SANCHIS</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200080</Cuenta>
+     <Descrip>MANUEL CARCELLER SEBASTIÁ</Descrip>
+     <Debe>150,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200082</Cuenta>
+     <Descrip>FERRAN SALES PRIACE</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200084</Cuenta>
+     <Descrip>BALMA SERRANO PORCAR</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200088</Cuenta>
+     <Descrip>BELEN MIRAVET AHICART</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200090</Cuenta>
+     <Descrip>JORDI CAMPOS VELA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200092</Cuenta>
+     <Descrip>CAMILA F. ZANETTI</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200094</Cuenta>
+     <Descrip>SORAYA BUESCU</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200097</Cuenta>
+     <Descrip>FABIAN RUS GARCIA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200099</Cuenta>
+     <Descrip>MARIA SEGURA PEREZ</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200100</Cuenta>
+     <Descrip>SILVIA CANO ROSELL</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200102</Cuenta>
+     <Descrip>MIGUEL ANGEL GALLART MONTE</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200104</Cuenta>
+     <Descrip>FRANCESC BREVA PALANQUES</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200105</Cuenta>
+     <Descrip>SARA ROMERO TORRES</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200107</Cuenta>
+     <Descrip>JORDI LOPEZ PRADES</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200108</Cuenta>
+     <Descrip>ANDREU LOPEZ PRADES</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200109</Cuenta>
+     <Descrip>PAU RODRIGUEZ PASTOR</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200110</Cuenta>
+     <Descrip>ADRIÀ VALDELVIRA SORRIBES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>13,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200111</Cuenta>
+     <Descrip>JOSÉ GÓMEZ BERNAL</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200112</Cuenta>
+     <Descrip>ALICIA GONZALEZ BARBERA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200113</Cuenta>
+     <Descrip>ALBA MOLINA JUAN</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200114</Cuenta>
+     <Descrip>PAULA GARCIA MONTOLIO</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200115</Cuenta>
+     <Descrip>ANDRES UGARRIZA GARCIA</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200116</Cuenta>
+     <Descrip>PEDRO GILABERT BLANCH</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200119</Cuenta>
+     <Descrip>DANIEL GARCIA CASTILLO</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200121</Cuenta>
+     <Descrip>PAU BELTRAN OBIOL</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200122</Cuenta>
+     <Descrip>MANEL ANDRES LECHE</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200124</Cuenta>
+     <Descrip>DANIEL GRIÑÓ VILAR</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200136</Cuenta>
+     <Descrip>ANTOINE ROJAS LINAN</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200139</Cuenta>
+     <Descrip>JORGE TRILLES LLACH</Descrip>
+     <Debe>190,00</Debe>
+     <Haber>220,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>465000001</Cuenta>
+     <Descrip>NORMA</Descrip>
+     <Debe>249,49</Debe>
+     <Haber>249,49</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>6,88</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>475100001</Cuenta>
+     <Descrip>HISENDA PÚBLICA ACREEDORA PER RETENCIONS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>5,44</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>476000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL ACREEDORA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>102,75</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>570000001</Cuenta>
+     <Descrip>CAIXA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>31,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>563,50</Debe>
+     <Haber>385,66</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>600000001</Cuenta>
+     <Descrip>LOTERIA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>360,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>625000001</Cuenta>
+     <Descrip>ASSEGURANCES</Descrip>
+     <Debe>120,12</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>10,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>4,78</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000024</Cuenta>
+     <Descrip>MATERIAL NETEJA</Descrip>
+     <Debe>25,39</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>640000001</Cuenta>
+     <Descrip>SOUS I SALARIS</Descrip>
+     <Debe>272,22</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>642000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL A CÀRREC DE L'EMPRESA</Descrip>
+     <Debe>85,46</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>726000001</Cuenta>
+     <Descrip>DONATIUS LOTERIA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1410,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>726000011</Cuenta>
+     <Descrip>INGRESSOS PER ESCUTS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>10,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>726000012</Cuenta>
+     <Descrip>INGRESSOS PER CORBATES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>OCTUBRE 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>448200072</Cuenta>
+     <Descrip>RAQUEL PERIS SÁNCHEZ</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200102</Cuenta>
+     <Descrip>MIGUEL ANGEL GALLART MONTE</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200112</Cuenta>
+     <Descrip>ALICIA GONZALEZ BARBERA</Descrip>
+     <Debe>9,00</Debe>
+     <Haber>13,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200113</Cuenta>
+     <Descrip>ALBA MOLINA JUAN</Descrip>
+     <Debe>9,00</Debe>
+     <Haber>9,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200114</Cuenta>
+     <Descrip>PAULA GARCIA MONTOLIO</Descrip>
+     <Debe>4,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200115</Cuenta>
+     <Descrip>ANDRES UGARRIZA GARCIA</Descrip>
+     <Debe>13,50</Debe>
+     <Haber>43,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200116</Cuenta>
+     <Descrip>PEDRO GILABERT BLANCH</Descrip>
+     <Debe>4,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200119</Cuenta>
+     <Descrip>DANIEL GARCIA CASTILLO</Descrip>
+     <Debe>9,00</Debe>
+     <Haber>9,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200122</Cuenta>
+     <Descrip>MANEL ANDRES LECHE</Descrip>
+     <Debe>9,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200124</Cuenta>
+     <Descrip>DANIEL GRIÑÓ VILAR</Descrip>
+     <Debe>19,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200136</Cuenta>
+     <Descrip>ANTOINE ROJAS LINAN</Descrip>
+     <Debe>24,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200139</Cuenta>
+     <Descrip>JORGE TRILLES LLACH</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>465000001</Cuenta>
+     <Descrip>NORMA</Descrip>
+     <Debe>332,63</Debe>
+     <Haber>332,63</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>470800021</Cuenta>
+     <Descrip>FEDERACIÓ</Descrip>
+     <Debe>1765,11</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>17,17</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>475100001</Cuenta>
+     <Descrip>HISENDA PÚBLICA ACREEDORA PER RETENCIONS</Descrip>
+     <Debe>5,44</Debe>
+     <Haber>7,26</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>476000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL ACREEDORA</Descrip>
+     <Debe>102,77</Debe>
+     <Haber>137,03</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>570000001</Cuenta>
+     <Descrip>CAIXA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>42,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>255,00</Debe>
+     <Haber>506,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>600000001</Cuenta>
+     <Descrip>LOTERIA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>120,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>624000001</Cuenta>
+     <Descrip>DESPESES TRANSPORT</Descrip>
+     <Debe>41,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>10,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>627000001</Cuenta>
+     <Descrip>DESPESES RELACIONS PÚBLIQUES</Descrip>
+     <Debe>34,30</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>4,78</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000021</Cuenta>
+     <Descrip>MATERIAL OFICINA</Descrip>
+     <Debe>0,41</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>640000001</Cuenta>
+     <Descrip>SOUS I SALARIS</Descrip>
+     <Debe>362,95</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>642000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL A CÀRREC DE L'EMPRESA</Descrip>
+     <Debe>113,97</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>705000001</Cuenta>
+     <Descrip>ACTUACIONS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1765,11</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>720000001</Cuenta>
+     <Descrip>QUOTES AFILIATS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>132,00</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>NOVIEMBRE 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>448200069</Cuenta>
+     <Descrip>MARINA BRANCHADELL TENA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200073</Cuenta>
+     <Descrip>MARIA GREGORIO LOZANO</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200075</Cuenta>
+     <Descrip>MARC MENA RAMÓN</Descrip>
+     <Debe>150,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200077</Cuenta>
+     <Descrip>ROBERTO VERGARA SANCHIS</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200079</Cuenta>
+     <Descrip>MAR VERGARA SANCHIS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200097</Cuenta>
+     <Descrip>FABIAN RUS GARCIA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200102</Cuenta>
+     <Descrip>MIGUEL ANGEL GALLART MONTE</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200109</Cuenta>
+     <Descrip>PAU RODRIGUEZ PASTOR</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200113</Cuenta>
+     <Descrip>ALBA MOLINA JUAN</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200124</Cuenta>
+     <Descrip>DANIEL GRIÑÓ VILAR</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>19,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200140</Cuenta>
+     <Descrip>JAVIER CLEMENTE PASCUAL</Descrip>
+     <Debe>20,00</Debe>
+     <Haber>20,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>465000001</Cuenta>
+     <Descrip>NORMA</Descrip>
+     <Debe>332,63</Debe>
+     <Haber>332,63</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>1,27</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>475100001</Cuenta>
+     <Descrip>HISENDA PÚBLICA ACREEDORA PER RETENCIONS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>7,26</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>476000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL ACREEDORA</Descrip>
+     <Debe>137,01</Debe>
+     <Haber>137,03</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>789,50</Debe>
+     <Haber>515,69</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>600000001</Cuenta>
+     <Descrip>LOTERIA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>504,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>10,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>4,78</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>640000001</Cuenta>
+     <Descrip>SOUS I SALARIS</Descrip>
+     <Debe>362,95</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>642000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL A CÀRREC DE L'EMPRESA</Descrip>
+     <Debe>113,97</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>720000001</Cuenta>
+     <Descrip>QUOTES AFILIATS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>20,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>726000001</Cuenta>
+     <Descrip>DONATIUS LOTERIA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>6,00</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>DICIEMBRE 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>448200020</Cuenta>
+     <Descrip>VICTOR MANUEL SÁNCHEZ GARCÍA</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200035</Cuenta>
+     <Descrip>PABLO ULLDEMOLINS AZNAR</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200036</Cuenta>
+     <Descrip>RAQUEL ARTUÑEDO PÉREZ</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200040</Cuenta>
+     <Descrip>ELENA GIMENO TENA</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200041</Cuenta>
+     <Descrip>HÉCTOR BRANCHADELL TENA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200042</Cuenta>
+     <Descrip>SARA ARTUÑEDO PÉREZ</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200054</Cuenta>
+     <Descrip>RUBEN GRIÑO VILAR</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200057</Cuenta>
+     <Descrip>MARC ULLDEMOLINS AZNAR</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200075</Cuenta>
+     <Descrip>MARC MENA RAMÓN</Descrip>
+     <Debe>12,00</Debe>
+     <Haber>15,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200076</Cuenta>
+     <Descrip>JOAN SERRANO PORCAR</Descrip>
+     <Debe>132,00</Debe>
+     <Haber>165,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200078</Cuenta>
+     <Descrip>LARA ARAGONÉS TECLES</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200084</Cuenta>
+     <Descrip>BALMA SERRANO PORCAR</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200099</Cuenta>
+     <Descrip>MARIA SEGURA PEREZ</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200100</Cuenta>
+     <Descrip>SILVIA CANO ROSELL</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200104</Cuenta>
+     <Descrip>FRANCESC BREVA PALANQUES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200105</Cuenta>
+     <Descrip>SARA ROMERO TORRES</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200107</Cuenta>
+     <Descrip>JORDI LOPEZ PRADES</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200108</Cuenta>
+     <Descrip>ANDREU LOPEZ PRADES</Descrip>
+     <Debe>136,80</Debe>
+     <Haber>171,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200111</Cuenta>
+     <Descrip>JOSÉ GÓMEZ BERNAL</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200112</Cuenta>
+     <Descrip>ALICIA GONZALEZ BARBERA</Descrip>
+     <Debe>43,20</Debe>
+     <Haber>73,20</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200113</Cuenta>
+     <Descrip>ALBA MOLINA JUAN</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200114</Cuenta>
+     <Descrip>PAULA GARCIA MONTOLIO</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200116</Cuenta>
+     <Descrip>PEDRO GILABERT BLANCH</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>159,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200119</Cuenta>
+     <Descrip>DANIEL GARCIA CASTILLO</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200121</Cuenta>
+     <Descrip>PAU BELTRAN OBIOL</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200122</Cuenta>
+     <Descrip>MANEL ANDRES LECHE</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>39,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200124</Cuenta>
+     <Descrip>DANIEL GRIÑÓ VILAR</Descrip>
+     <Debe>62,40</Debe>
+     <Haber>92,40</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200136</Cuenta>
+     <Descrip>ANTOINE ROJAS LINAN</Descrip>
+     <Debe>120,00</Debe>
+     <Haber>150,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200141</Cuenta>
+     <Descrip>NICOLAS COSMEN NUÑEZ</Descrip>
+     <Debe>12,50</Debe>
+     <Haber>12,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>465000001</Cuenta>
+     <Descrip>NORMA</Descrip>
+     <Debe>332,63</Debe>
+     <Haber>332,63</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>470800021</Cuenta>
+     <Descrip>FEDERACIÓ</Descrip>
+     <Debe>440,00</Debe>
+     <Haber>440,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>9,15</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>475100001</Cuenta>
+     <Descrip>HISENDA PÚBLICA ACREEDORA PER RETENCIONS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>7,26</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>476000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL ACREEDORA</Descrip>
+     <Debe>137,01</Debe>
+     <Haber>137,03</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>570000001</Cuenta>
+     <Descrip>CAIXA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>45,40</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>3237,10</Debe>
+     <Haber>3425,69</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>600000001</Cuenta>
+     <Descrip>LOTERIA</Descrip>
+     <Debe>2940,00</Debe>
+     <Haber>1946,40</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>10,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>627000001</Cuenta>
+     <Descrip>DESPESES RELACIONS PÚBLIQUES</Descrip>
+     <Debe>33,47</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>4,78</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000021</Cuenta>
+     <Descrip>MATERIAL OFICINA</Descrip>
+     <Debe>4,05</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>640000001</Cuenta>
+     <Descrip>SOUS I SALARIS</Descrip>
+     <Debe>362,95</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>642000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL A CÀRREC DE L'EMPRESA</Descrip>
+     <Debe>113,97</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>705000001</Cuenta>
+     <Descrip>ACTUACIONS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>440,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>720000001</Cuenta>
+     <Descrip>QUOTES AFILIATS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>10,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>726000001</Cuenta>
+     <Descrip>DONATIUS LOTERIA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>2,50</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>REGULARIZACION 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>129000001</Cuenta>
+     <Descrip>Excedent de l'exercici</Descrip>
+     <Debe>1116,64</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>600000001</Cuenta>
+     <Descrip>LOTERIA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>9,60</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>622000001</Cuenta>
+     <Descrip>REPARACIÓ SAXO BARÍTON</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>28,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>624000001</Cuenta>
+     <Descrip>DESPESES TRANSPORT</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>41,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>625000001</Cuenta>
+     <Descrip>ASSEGURANCES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>600,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>626000001</Cuenta>
+     <Descrip>COMISSIONS BANC</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>124,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>627000001</Cuenta>
+     <Descrip>DESPESES RELACIONS PÚBLIQUES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>67,77</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>627000002</Cuenta>
+     <Descrip>PUBLICITAT</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>11,85</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000001</Cuenta>
+     <Descrip>CEDRO</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>197,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000003</Cuenta>
+     <Descrip>INTERNET</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>50,44</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000004</Cuenta>
+     <Descrip>FEDERACIÓ</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>389,76</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000021</Cuenta>
+     <Descrip>MATERIAL OFICINA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>11,90</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>629000024</Cuenta>
+     <Descrip>MATERIAL NETEJA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>25,39</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>640000001</Cuenta>
+     <Descrip>SOUS I SALARIS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>2268,45</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>642000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL A CÀRREC DE L'EMPRESA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>712,26</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>647000001</Cuenta>
+     <Descrip>DIETES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>9,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>678000013</Cuenta>
+     <Descrip>DESPESES EXCEPCIONALS: XARANGA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>220,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>705000001</Cuenta>
+     <Descrip>ACTUACIONS</Descrip>
+     <Debe>2425,11</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>720000001</Cuenta>
+     <Descrip>QUOTES AFILIATS</Descrip>
+     <Debe>644,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>726000001</Cuenta>
+     <Descrip>DONATIUS LOTERIA</Descrip>
+     <Debe>1418,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>726000011</Cuenta>
+     <Descrip>INGRESSOS PER ESCUTS</Descrip>
+     <Debe>15,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>726000012</Cuenta>
+     <Descrip>INGRESSOS PER CORBATES</Descrip>
+     <Debe>30,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>740000001</Cuenta>
+     <Descrip>SUBVENCIONS AJUNTAMENT</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>882,83</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+  <Periodo>
+   <NombrePeriodo>CIERRE 2020</NombrePeriodo>
+   <DetallePeriodo>
+    <Linea>
+     <Cuenta>101000001</Cuenta>
+     <Descrip>FONS SOCIAL</Descrip>
+     <Debe>11816,82</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>113000001</Cuenta>
+     <Descrip>PAGAMENTS QUOTA SOCI ENDARRERITS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>429,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>113000002</Cuenta>
+     <Descrip>PAGAMENTS COMISSIÓ LOTERIA ENDARRERITS</Descrip>
+     <Debe>60,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>129000001</Cuenta>
+     <Descrip>Excedent de l'exercici</Descrip>
+     <Debe>14564,73</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>203000001</Cuenta>
+     <Descrip>PARTITURES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>230,01</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>214000001</Cuenta>
+     <Descrip>VENTILADORS</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>33,79</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000001</Cuenta>
+     <Descrip>Bombo marxa</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>102,15</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000002</Cuenta>
+     <Descrip>Bombo marxa</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>102,15</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000003</Cuenta>
+     <Descrip>Massa bombo</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>8,43</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000004</Cuenta>
+     <Descrip>Massa bombo</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>8,43</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000005</Cuenta>
+     <Descrip>Claves (par)</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>7,93</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000006</Cuenta>
+     <Descrip>Pandereta</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>95,70</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000007</Cuenta>
+     <Descrip>Triangle</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>21,82</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000008</Cuenta>
+     <Descrip>Massa triangle</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>10,42</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000009</Cuenta>
+     <Descrip>Penjador triangle</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>31,24</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000010</Cuenta>
+     <Descrip>Maraques</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>8,93</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000011</Cuenta>
+     <Descrip>Lira</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>403,14</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000012</Cuenta>
+     <Descrip>Timbal 23''</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1138,01</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000013</Cuenta>
+     <Descrip>Timbal 26''</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>992,23</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000014</Cuenta>
+     <Descrip>Timbal 29''</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1122,15</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000015</Cuenta>
+     <Descrip>Esquella</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>22,81</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000016</Cuenta>
+     <Descrip>Temple-blocks</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>236,84</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000017</Cuenta>
+     <Descrip>Cortina</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>44,87</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000018</Cuenta>
+     <Descrip>Suport cortina</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>10,42</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000019</Cuenta>
+     <Descrip>Suport Lira</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>12,15</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000020</Cuenta>
+     <Descrip>Flauta èmbol</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>4,61</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000021</Cuenta>
+     <Descrip>Vibra-SLAP</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>33,11</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000022</Cuenta>
+     <Descrip>Escobilla Jazz</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>13,86</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000023</Cuenta>
+     <Descrip>Cabasa</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>16,86</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000024</Cuenta>
+     <Descrip>Multigüiro</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>29,75</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000025</Cuenta>
+     <Descrip>A-Go-Go</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>37,02</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000026</Cuenta>
+     <Descrip>Castanyetes</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>105,78</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000027</Cuenta>
+     <Descrip>Gong</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>296,73</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000028</Cuenta>
+     <Descrip>Campanes</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,42</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000029</Cuenta>
+     <Descrip>Suport Gong</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>51,74</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000030</Cuenta>
+     <Descrip>Bobina Oboe/Fagot</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>4,85</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000031</Cuenta>
+     <Descrip>Tuba</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>2436,70</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000032</Cuenta>
+     <Descrip>Xilòfon</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1314,30</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000033</Cuenta>
+     <Descrip>Plats</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>511,17</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000035</Cuenta>
+     <Descrip>Bombo concert</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1025,09</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000036</Cuenta>
+     <Descrip>Plats</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>6,20</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000037</Cuenta>
+     <Descrip>Faristols</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>44,47</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000038</Cuenta>
+     <Descrip>Fundes timbals</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>67,68</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000039</Cuenta>
+     <Descrip>Fundes timbals</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>59,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000040</Cuenta>
+     <Descrip>Baquetes</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>57,85</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000041</Cuenta>
+     <Descrip>Boquilla saxo</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>134,77</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000042</Cuenta>
+     <Descrip>Drap boquilla</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>10,54</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000043</Cuenta>
+     <Descrip>Drap saxo</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>12,64</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000044</Cuenta>
+     <Descrip>SAXO TENOR</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1219,01</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000045</Cuenta>
+     <Descrip>Suport plats GUIL PTO</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>61,98</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000046</Cuenta>
+     <Descrip>CAIXA YAMAHA CONCERT CSMI 350 A II</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>355,37</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000047</Cuenta>
+     <Descrip>ARNÉS BOMBO</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>20,66</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000049</Cuenta>
+     <Descrip>PLAT SABIAN B8X 18''</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>89,25</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000050</Cuenta>
+     <Descrip>SUPORT DE PLAT JIRAFA 1103F</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>35,54</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000054</Cuenta>
+     <Descrip>CONGUES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>342,98</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000058</Cuenta>
+     <Descrip>Altaveu</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>234,05</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000059</Cuenta>
+     <Descrip>Bandera</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>897,31</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000060</Cuenta>
+     <Descrip>SAXO BARITON</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>3714,63</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000061</Cuenta>
+     <Descrip>FARISTOLS (PERMUSIC)</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>161,15</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000062</Cuenta>
+     <Descrip>CADIRA DIRECTORA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>231,40</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>219000063</Cuenta>
+     <Descrip>OUS MARAQUES</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>4,96</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000001</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0001 Bombo marxa</Descrip>
+     <Debe>34,04</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000002</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0002 Bombo marxa</Descrip>
+     <Debe>34,04</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000003</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0003 Massa bombo</Descrip>
+     <Debe>2,80</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000004</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0004 Massa bombo</Descrip>
+     <Debe>2,80</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000005</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0005 Claves (par)</Descrip>
+     <Debe>2,64</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000006</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0006 Pandereta</Descrip>
+     <Debe>31,90</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000007</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0007 Triangle</Descrip>
+     <Debe>7,28</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000008</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0008 Massa triangle</Descrip>
+     <Debe>3,48</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000009</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0009 Penjador triangle</Descrip>
+     <Debe>10,42</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000010</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0010 Maraques</Descrip>
+     <Debe>2,98</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000011</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0011 Lira</Descrip>
+     <Debe>134,38</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000012</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0012 Timbal 23'</Descrip>
+     <Debe>379,34</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000013</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0013 Timbal 26'</Descrip>
+     <Debe>330,74</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000014</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0014 Timbal 29'</Descrip>
+     <Debe>374,06</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000015</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0015 Esquella</Descrip>
+     <Debe>6,52</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000016</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0016 Temple-blocks</Descrip>
+     <Debe>67,66</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000017</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0017 Cortina</Descrip>
+     <Debe>12,82</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000018</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0018 Suport cortina</Descrip>
+     <Debe>2,98</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000019</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0019 Suport Lira</Descrip>
+     <Debe>3,48</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000020</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0020 Flauta èmbol</Descrip>
+     <Debe>1,16</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000021</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0021 Vibra-SLAP</Descrip>
+     <Debe>8,28</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000022</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0022 Escobilla Jazz</Descrip>
+     <Debe>3,46</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000023</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0023 Cabasa</Descrip>
+     <Debe>4,22</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000024</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0024 Multigüiro</Descrip>
+     <Debe>7,44</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000025</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0025 A-Go-Go</Descrip>
+     <Debe>9,26</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000026</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0026 Castanyetes</Descrip>
+     <Debe>26,44</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000027</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0027 Gong</Descrip>
+     <Debe>74,18</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000028</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0028 Campanes</Descrip>
+     <Debe>7,60</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000029</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0029 Suport Gong</Descrip>
+     <Debe>12,94</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000030</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0030 Bobina Oboe/Fagot</Descrip>
+     <Debe>1,22</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000031</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0031 Tuba</Descrip>
+     <Debe>541,48</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000032</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0032 Xilòfon</Descrip>
+     <Debe>292,06</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000033</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0033 Plats</Descrip>
+     <Debe>113,60</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000035</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0035 Bombo concert</Descrip>
+     <Debe>227,80</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000036</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0036 Plats</Descrip>
+     <Debe>4,14</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000037</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0037 Faristols</Descrip>
+     <Debe>17,78</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000038</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0038 Fundes timbals</Descrip>
+     <Debe>19,34</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000039</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0039 Fundes timbals</Descrip>
+     <Debe>17,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000040</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0040 Baquetes</Descrip>
+     <Debe>16,52</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000041</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0041 Boquilla saxo</Descrip>
+     <Debe>26,96</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000042</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0042 Drap boquilla</Descrip>
+     <Debe>2,10</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000043</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0043 Drap saxo</Descrip>
+     <Debe>2,52</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000044</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0044 Saxo Tenor</Descrip>
+     <Debe>243,13</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000045</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0045 Suport plats</Descrip>
+     <Debe>11,41</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000046</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0046 Caixa concert</Descrip>
+     <Debe>61,34</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000047</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0047 Arnés Bombo</Descrip>
+     <Debe>3,43</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000049</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0049 Plat 18'</Descrip>
+     <Debe>15,07</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000050</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0050 Suport jirafa</Descrip>
+     <Debe>5,99</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000054</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0054 Congues</Descrip>
+     <Debe>41,35</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000058</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0058 Altaveu</Descrip>
+     <Debe>58,52</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000059</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA 0059 Bandera</Descrip>
+     <Debe>199,40</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>281000060</Cuenta>
+     <Descrip>AMORTITZACIÓ ACUMULADA SAXO BARÍTON</Descrip>
+     <Debe>351,11</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200039</Cuenta>
+     <Descrip>SOFÍA MOLINA LAGO</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200052</Cuenta>
+     <Descrip>SALOMÉ VIVES MONTERDE</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200075</Cuenta>
+     <Descrip>MARC MENA RAMÓN</Descrip>
+     <Debe>3,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200076</Cuenta>
+     <Descrip>JOAN SERRANO PORCAR</Descrip>
+     <Debe>3,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200082</Cuenta>
+     <Descrip>FERRAN SALES PRIACE</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>60,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200088</Cuenta>
+     <Descrip>BELEN MIRAVET AHICART</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200090</Cuenta>
+     <Descrip>JORDI CAMPOS VELA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200092</Cuenta>
+     <Descrip>CAMILA F. ZANETTI</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>60,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200094</Cuenta>
+     <Descrip>SORAYA BUESCU</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200099</Cuenta>
+     <Descrip>MARIA SEGURA PEREZ</Descrip>
+     <Debe>4,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200108</Cuenta>
+     <Descrip>ANDREU LOPEZ PRADES</Descrip>
+     <Debe>2,70</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200109</Cuenta>
+     <Descrip>PAU RODRIGUEZ PASTOR</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>4,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200112</Cuenta>
+     <Descrip>ALICIA GONZALEZ BARBERA</Descrip>
+     <Debe>4,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200113</Cuenta>
+     <Descrip>ALBA MOLINA JUAN</Descrip>
+     <Debe>57,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200114</Cuenta>
+     <Descrip>PAULA GARCIA MONTOLIO</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>13,50</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200116</Cuenta>
+     <Descrip>PEDRO GILABERT BLANCH</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>7,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200121</Cuenta>
+     <Descrip>PAU BELTRAN OBIOL</Descrip>
+     <Debe>24,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200124</Cuenta>
+     <Descrip>DANIEL GRIÑÓ VILAR</Descrip>
+     <Debe>2,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200132</Cuenta>
+     <Descrip>ALBERTO GIMENO GARCIA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200135</Cuenta>
+     <Descrip>MERCEDES MONTERDE</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>30,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>448200136</Cuenta>
+     <Descrip>ANTOINE ROJAS LINAN</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>54,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>470800021</Cuenta>
+     <Descrip>FEDERACIÓ</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>1765,11</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>472000001</Cuenta>
+     <Descrip>HISENDA PUBLICA IVA SUPORTAT</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>2593,27</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>475100001</Cuenta>
+     <Descrip>HISENDA PÚBLICA ACREEDORA PER RETENCIONS</Descrip>
+     <Debe>4,24</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>476000001</Cuenta>
+     <Descrip>SEGURETAT SOCIAL ACREEDORA</Descrip>
+     <Debe>232,27</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>485000001</Cuenta>
+     <Descrip>QUOTES ANTICIPADES</Descrip>
+     <Debe>97,50</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>521000001</Cuenta>
+     <Descrip>Deutes curt termini</Descrip>
+     <Debe>20,00</Debe>
+     <Haber>0,00</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>570000001</Cuenta>
+     <Descrip>CAIXA</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>51,79</Haber>
+    </Linea>
+    <Linea>
+     <Cuenta>572000001</Cuenta>
+     <Descrip>CAJAMAR</Descrip>
+     <Debe>0,00</Debe>
+     <Haber>7237,69</Haber>
+    </Linea>
+   </DetallePeriodo>
+  </Periodo>
+ </Detalle>
+</DiarioResumen>

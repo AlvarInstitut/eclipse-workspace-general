@@ -7,6 +7,9 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/alvar/eclipse-workspace-general/UtilitatsManteniment"/>
+			<item value="/home/alvar/eclipse-workspace-general/Convert_Geo_Db4o"/>
+			<item value="/home/alvar/eclipse-workspace-general/UtilitatsKeme"/>
 			<item value="/home/alvar/eclipse-workspace-general/UtilitatsFirebase"/>
 			<item value="/home/alvar/Dropbox/Privat/eclipse-workspace/Jocs"/>
 			<item value="/home/INFORMATICA/alvar/Dropbox/Privat/eclipse-workspace/UtilitatsManteniment"/>

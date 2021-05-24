@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="/home/alvar/Drivers 2020/javax.mail.jar"/>
-	<classpathentry kind="lib" path="/home/alvar/Drivers 2020/mysql-connector-java-8.0.21.jar"/>
+	<classpathentry kind="lib" path="/home/alvar/Drivers2020/postgresql-42.2.12.jar"/>
+	<classpathentry kind="lib" path="/home/alvar/Drivers 2019/javax.mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

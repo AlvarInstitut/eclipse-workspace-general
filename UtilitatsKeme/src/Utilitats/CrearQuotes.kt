@@ -9,9 +9,10 @@ import java.time.format.DateTimeFormatter
 
 
 class Finestra : JFrame() {
-	val fCh = JFileChooser(".")
+	val fCh = JFileChooser("/home/alvar/Dropbox/Privat/AMCastàlia")
 	val taula = JTable(1, 6)
 	val area = JTextArea(10, 100)
+	val concepte = JTextField(15)
 
 
 	init {
@@ -47,9 +48,11 @@ class Finestra : JFrame() {
 			if (r == JFileChooser.APPROVE_OPTION) {
 				fitxer.setText(fCh.getSelectedFile().getName())
 				val f = fCh.getSelectedFile()
-				val linies = f.readLines()
-
+				val linies = ArrayList(f.readLines())
+				//llevem la primera línia de les capçaleres
+				linies.removeAt(0)
 				plenarTaula(linies)
+				concepte.setText(fCh.getSelectedFile().getName().substring(0,fCh.getSelectedFile().getName().length-4))
 			}
 		}
 
@@ -60,6 +63,9 @@ class Finestra : JFrame() {
 		data.setText(avui.format(formatter))
 		panell13.add(data)
 
+		panell13.add(JLabel("Concepte:"))
+		panell13.add(concepte)
+
 		val botoPassarSQL = JButton("Convertir SQL")
 		panell13.add(botoPassarSQL)
 
@@ -67,9 +73,9 @@ class Finestra : JFrame() {
 		panell13.add(comboCompte)
 		val compte = JTextField(10)
 		panell13.add(compte)
-		
-		comboCompte.addActionListener{
-			when(comboCompte.getSelectedItem()){
+
+		comboCompte.addActionListener {
+			when (comboCompte.getSelectedItem()) {
 				"Quotes" -> compte.setText("720000001")
 				"Loteria" -> compte.setText("726000001")
 			}
@@ -112,38 +118,36 @@ class Finestra : JFrame() {
                     st2.setString(9,"2020")
                     st2.setString(10,"2-12-2020")*/
 				var cadena =
-					"INSERT INTO DIARIO(asiento, pase, fecha, cuenta, debe, haber, concepto, usuario, ejercicio, fecha_factura) " +
+					"INSERT INTO DIARIO(asiento, pase, fecha, cuenta, debe, haber, concepto, usuario, ejercicio) " +
 							"VALUES ("
 				cadena = cadena + segAssent + ","
 				cadena = cadena + segPasse + ","
 				cadena = cadena + "'" + data.getText() + "',"
 				cadena = cadena + "'44820" + (taula.getModel().getValueAt(l, 0)).toString().padStart(4, '0') + "',"
 				cadena = cadena + taula.getModel().getValueAt(l, 5).toString().replace(",", ".").toFloat() + ","
-				cadena = cadena + "0" + ","
-				cadena = cadena + "'QUOTA 2021-1T " + taula.getModel().getValueAt(l, 1).toString().replace("'","''") +
-									", " + taula.getModel().getValueAt(l, 2).toString().replace("'","''") + "',"
-				cadena = cadena + "'Alvar'" + ","
-				cadena = cadena + "'2020'" + ","
-				cadena = cadena + "'" + data.getText() + "')"
+				cadena = cadena + "0" + ",'"
+				cadena = cadena + concepte.getText() + ": " + taula.getModel().getValueAt(l, 1).toString().replace("'", "''") +
+						", " + taula.getModel().getValueAt(l, 2).toString().replace("'", "''") + "',"
+				cadena = cadena + "'alvar'" + ","
+				cadena = cadena + "'2021')"
 
 				st3.executeUpdate(cadena)
 				area.append(cadena + "\n")
 
 				segPasse++
 				cadena =
-					"INSERT INTO DIARIO(asiento, pase, fecha, cuenta, debe, haber, concepto, usuario, ejercicio, fecha_factura) " +
+					"INSERT INTO DIARIO(asiento, pase, fecha, cuenta, debe, haber, concepto, usuario, ejercicio) " +
 							"VALUES ("
 				cadena = cadena + segAssent + ","
 				cadena = cadena + segPasse + ","
 				cadena = cadena + "'" + data.getText() + "',"
-				cadena = cadena + "'" + compte.getText()+ "',"
+				cadena = cadena + "'" + compte.getText() + "',"
 				cadena = cadena + "0" + ","
-				cadena = cadena + taula.getModel().getValueAt(l, 5).toString().replace(",", ".").toFloat() + ","
-				cadena = cadena + "'QUOTA 2021-1T " + taula.getModel().getValueAt(l, 1) + ", " + taula.getModel()
+				cadena = cadena + taula.getModel().getValueAt(l, 5).toString().replace(",", ".").toFloat() + ",'"
+				cadena = cadena + concepte.getText() + ": " + taula.getModel().getValueAt(l, 1) + ", " + taula.getModel()
 					.getValueAt(l, 2) + "',"
-				cadena = cadena + "'Alvar'" + ","
-				cadena = cadena + "'2020'" + ","
-				cadena = cadena + "'" + data.getText() + "')"
+				cadena = cadena + "'alvar'" + ","
+				cadena = cadena + "'2021')"
 				st3.executeUpdate(cadena)
 
 				area.append(cadena + "\n")
